@@ -17,6 +17,19 @@ body {
   margin-bottom: 10px;
 }
 
+.box-razzmatazz {
+  margin-top: -15px;
+}
+
+.image1 {
+  margin-top: -15px;
+}
+
+.image-cover {
+  width: 80%;
+  margin: auto;
+}
+
 .content-absolute {
   width: 100%;
   padding: 10px 0 12px 0;
@@ -359,7 +372,6 @@ body {
 @media only screen and (max-width: 989px) {
   .content-absolute {
     width: 100%;
-    padding: 0 !important;
     margin-top: -10px;
     position: absolute !important;
   }
