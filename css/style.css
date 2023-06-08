@@ -390,7 +390,7 @@ body {
 
 @media only screen and (max-width: 360px) {
   .image-top {
-    width: 78.6%;
+    width: 78.6% !important;
     margin: auto;
   }
 }
