@@ -18,9 +18,8 @@ body {
 }
 
 .image-top {
-  width: 50%;
+  width: 100%;
   display: block;
-  margin: auto;
 }
 
 .box-razzmatazz {
@@ -385,12 +384,5 @@ body {
 
   .layout-cta {
     margin-top: 13px
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  .image-top {
-    width: 78.6% !important;
-    margin: auto;
   }
 }
