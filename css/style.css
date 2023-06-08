@@ -18,8 +18,9 @@ body {
 }
 
 .image-top {
-  width: 100%;
+  width: 50%;
   display: block;
+  margin: auto;
 }
 
 .box-razzmatazz {
@@ -267,8 +268,6 @@ body {
   .image-content {
     margin-bottom: 15px !important;
   }
-
-  .image-top {}
 
   .content-absolute {
     max-width: 990px;
