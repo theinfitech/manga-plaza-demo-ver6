@@ -17,6 +17,11 @@ body {
   margin-bottom: 10px;
 }
 
+.image-top {
+  width: 100%;
+  display: block;
+}
+
 .box-razzmatazz {
   margin-top: -15px;
 }
@@ -263,6 +268,8 @@ body {
     margin-bottom: 15px !important;
   }
 
+  .image-top {}
+
   .content-absolute {
     max-width: 990px;
     margin: 0 auto;
@@ -369,13 +376,22 @@ body {
   }
 
 }
+
 @media only screen and (max-width: 989px) {
   .content-absolute {
     width: 100%;
-    margin-top: -10px;
+    margin-top: -20px;
     position: absolute !important;
   }
-  .layout-cta{
+
+  .layout-cta {
     margin-top: 13px
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .image-top {
+    width: 78.6%;
+    margin: auto;
   }
 }
